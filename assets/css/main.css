@@ -2084,9 +2084,8 @@ input, select, textarea {
 	#imagelogo {
 		width: 100%;
 		height: auto;
-		display: inline-block;
-		
-		background-repeat: no-repeat;
+		display: inline-block;		
+		background-repeat: repeat;
 		position: relative;
 	}
 		#header h1 {
@@ -2197,14 +2196,14 @@ input, select, textarea {
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
-		margin: 4em 0 0 0;
+		margin: 2em 0 0 0;
 	}
 
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.98);
 			display: inline-block;
 			padding: 2.5em 5em;
-			border-radius: 5px;
+			border-radius: 16px;													
 		}
 
 			#banner header h2 {
@@ -2481,6 +2480,10 @@ input, select, textarea {
 				overflow-x: hidden;
 			}
 
+			#banner header {
+				width: 600px;
+			}
+
 		/* Box */
 
 			.box footer ul.actions li {
@@ -2733,6 +2736,8 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+
+
 		/* Button */
 
 			input[type="button"].large,
@@ -2896,8 +2901,9 @@ input, select, textarea {
 
 				#banner header {
 					padding: 1.5em 1em 1.5em 1em;
-					display: block;
-					border-radius: 0;
+					display: inline-block;
+					border-radius: 16px;
+					width: 68%;
 				}
 
 					#banner header h2 {
