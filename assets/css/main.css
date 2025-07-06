@@ -1719,7 +1719,7 @@ input, select, textarea {
 			float: left;
 			margin: 0 2em 2em 0;
 		}
-
+		
 /* List */
 
 	ul {
@@ -2062,6 +2062,16 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	#imagelogo {
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		align-content: center;
+		position: relative;
+		padding: 8em 0;
+		margin: 4em 0 0 0;
+	}
+
 /* Header */
 
 	#header {
@@ -2071,7 +2081,14 @@ input, select, textarea {
 		padding: 5em 0 4em 0;
 		text-align: center;
 	}
-
+	#imagelogo {
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		
+		background-repeat: no-repeat;
+		position: relative;
+	}
 		#header h1 {
 			color: #252122;
 			font-weight: 900;
