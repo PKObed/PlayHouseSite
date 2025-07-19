@@ -3078,11 +3078,6 @@ input, select, textarea {
 	}
 
 		@media screen and (max-width: 480px) {
-
-		#imagelogo {
-		height: min-content;
-		}
-
 		#Search-Bar {			
 		right: min(5.3rem, 17.8%);
 		left: auto;
