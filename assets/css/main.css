@@ -2264,6 +2264,7 @@ input, select, textarea {
 		position: relative;
 		padding: 8em 0;
 		margin: 2em 0 0 0;
+		border: 2.8em solid white;
 	}
 
 		#banner header {
@@ -2604,12 +2605,12 @@ input, select, textarea {
 		/*Search Bar and Cart Repositioning */
 		#Search-Bar {
 			position: absolute;
-			right: 5.6rem;
-			top: 0;
-			width: min(36em, 100%);
-			box-sizing: border-box;
-			margin-top: 0.8rem;	
+			right: 18vw;
+			bottom: calc(144.5vh * 100%);
+			width: min(39em, 59%);
+			margin-top: 0;
 			}
+
 		#cart-SC{
 			display: inline-block;
 			margin-bottom: 35.2rem;
@@ -3006,12 +3007,13 @@ input, select, textarea {
 
 			#Search-Bar {			
 			position: absolute;
-			right: min(5.2rem, 13.7%);
-			top: 0;
-			width: min(36em, 70%);
-			box-sizing: border-box;
-			margin-top: 0.8rem;	
+			top: calc(39.5vh *100%);
+			height: min-content;
+			right: 18vw;
+			width: min(29.6em, 58.4%);
+			margin-top: -0.9rem;
 				}
+
 			#Search-Content { 		
 			position: absolute;	
 			right: 0.089rem;
@@ -3076,10 +3078,26 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+		#imagelogo {
+		height: min-content;
+		}
+
 		#Search-Bar {			
 		right: min(5.3rem, 17.8%);
 		left: auto;
 		width: min(25.2em, 65%, 60%);
 			}
 
+		#banner header {
+		width: 66%;
+		min-width: max-content;
+	     }
+
+		#banner header h2 {
+		font-size: 1.18em;
+		}
+
+		#banner header p {
+			font-size: 0.98em;
+		}
 		}
