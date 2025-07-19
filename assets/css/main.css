@@ -2126,7 +2126,8 @@ input, select, textarea {
 
 	#imagelogo {
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: 100%;
+		height: auto;
 		background-repeat: no-repeat;
 		align-content: center;
 		position: relative;
